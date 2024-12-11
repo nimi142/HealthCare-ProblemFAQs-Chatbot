@@ -16,7 +16,7 @@ nltk.download('punkt')
 # Load intents from the JSON file
  
 #file_path = r'C:\Users\nami0\OneDrive\Documents\Chatbot\intents.json'
-file_path = os.path.abspath("intents.json") 
+file_path = os.path.abspath("./intents.json") 
 with open(file_path, "r") as file:
     intents = json.load(file)
 
