@@ -20,9 +20,7 @@
 
         {"tag": "Splinter",
          "patterns": ["How to remove Splinters", "How to cure Splinters?", "What to do if I have splinters?", "How do you bring a splinter to the surface?"],
-         
          "responses": ["1) SOAK IT IN EPSOM SALTS:\nDissolve a cup of Epsom salts in warm water and soak the affected area. \nYou can also apply it using a bandage pad for a day.\n\n2) VINEGAR OR OIL:\nSoak the area in olive oil, corn oil, or white vinegar for 20–30 minutes to draw out the splinter."],
-
          "context_set": ""
         },
 
