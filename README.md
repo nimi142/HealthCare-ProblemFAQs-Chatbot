@@ -25,10 +25,18 @@ This project focuses on creating a chatbot that uses **Natural Language Processi
 6. Download NLTK data
 7. Install streamlit
 
-#### Usage  
+#### How to run it on your own machine
 To run the chatbot, use the following command:
 
-python -m streamlit run app.py
+1. Install the requirements
+   ```
+   pip install -r requirements.txt
+   ```
+   
+2. To view your Streamlit app in your browser
+   ```
+   python -m streamlit run app.py
+   ```
 
 Once the application is running, you can start chatting with the bot through the web interface. Type a message in the input box and press Enter to receive a response.
 
