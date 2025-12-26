@@ -57,15 +57,23 @@ counter = 0
 
 def main():
     global counter
+
     st.title("**Medical Assistance Chatbot** :hospital: ")
-    
+
+# To change the colour of title 
+#   st.markdown(
+#        "<h1 style='color:#28B463;'>Medical Assistance Chatbot 🏥</h1>",
+#       unsafe_allow_html=True
+#   )
+
+       
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     # Home Menu
     if choice == "Home":
-        st.caption("Your virtual assistant for quick medical guidance")
+        st.caption("Your virtual assistant for quick medical guidance 🧑‍⚕️🩺")
         st.text("Ready to get started? Type your question below and begin the conversation!")
 
         # Check if the chat_log.csv file exists, and if not, create it with column names
